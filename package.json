@@ -1,0 +1,56 @@
+{
+  "name": "eslint-plugin-vue-ai-sanitizer",
+  "version": "0.2.0",
+  "description": "ESLint plugin to detect and fix common issues in AI-generated Vue code, including Vuex and Pinia",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "vue",
+    "ai",
+    "sanitizer",
+    "vuex",
+    "pinia"
+  ],
+  "author": "AI Code Sanitizer Team",
+  "homepage": "https://github.com/yourusername/eslint-plugin-vue-ai-sanitizer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/eslint-plugin-vue-ai-sanitizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/eslint-plugin-vue-ai-sanitizer/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint": "^8.44.0",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.5",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.46.0",
+    "jest": "^29.6.2",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}
