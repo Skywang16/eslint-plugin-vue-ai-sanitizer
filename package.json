@@ -20,14 +20,14 @@
     "vuex",
     "pinia"
   ],
-  "author": "AI Code Sanitizer Team",
-  "homepage": "https://github.com/yourusername/eslint-plugin-vue-ai-sanitizer",
+  "author": "Skywang16",
+  "homepage": "https://github.com/Skywang16/eslint-plugin-vue-ai-sanitizer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/eslint-plugin-vue-ai-sanitizer.git"
+    "url": "https://github.com/Skywang16/eslint-plugin-vue-ai-sanitizer.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/eslint-plugin-vue-ai-sanitizer/issues"
+    "url": "https://github.com/Skywang16/eslint-plugin-vue-ai-sanitizer/issues"
   },
   "license": "MIT",
   "devDependencies": {
